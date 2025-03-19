@@ -1,36 +1,10 @@
-
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <html>
 <head>
     <title>Danh Sách Mượn Sách</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        table, th, td {
-            border: 1px solid black;
-        }
-        th, td {
-            padding: 10px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-        img {
-            width: 50px;
-            height: 50px;
-        }
-        a {
-            text-decoration: none;
-            color: blue;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <!-- Liên kết đến tệp CSS ngoài -->
+    <link rel="stylesheet" type="text/css" href="../Css/style.css">
 </head>
 <body>
     <h2>Danh Sách Mượn Sách</h2>

@@ -1,115 +1,44 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html; charset=UTF-8" language="java" %>
 <html>
 <head>
     <title>Thêm Sách Mới</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-
-        h2 {
-            text-align: center;
-            color: #333;
-            margin-top: 20px;
-        }
-
-        .container {
-            width: 50%;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-
-        .form-group {
-            margin-bottom: 20px;
-        }
-
-        .form-group label {
-            font-size: 16px;
-            color: #333;
-            margin-bottom: 8px;
-            display: block;
-        }
-
-        .form-group input[type="text"], .form-group input[type="number"], .form-group input[type="file"] {
-            width: 100%;
-            padding: 10px;
-            font-size: 14px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
-        }
-
-        .form-group input[type="submit"] {
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            padding: 12px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            border-radius: 4px;
-            width: 100%;
-        }
-
-        .form-group input[type="submit"]:hover {
-            background-color: #45a049;
-        }
-
-        .form-group input[type="file"] {
-            padding: 6px;
-        }
-
-        .button-container {
-            text-align: center;
-        }
-
-        .form-group input:focus {
-            outline: none;
-            border-color: #4CAF50;
-        }
-    </style>
+    <!-- Liên kết đến tệp CSS ngoài -->
+    <link rel="stylesheet" type="text/css" href="../Css/style.css">
 </head>
 <body>
+    <h2>Thêm Sách Mới</h2>
 
-    <div class="container">
-        <h2>Thêm Sách Mới</h2>
-        <!-- Form có enctype="multipart/form-data" để tải tệp lên -->
-        <form action="addBook" method="post" enctype="multipart/form-data">
-            <div class="form-group">
-                <label for="title">Tên Sách:</label>
-                <input type="text" id="title" name="title" required><br><br>
-            </div>
+    <!-- Form thêm sách -->
+    <div class="form-container">
+        <form action="bookServlet" method="post" enctype="multipart/form-data">
+            <input type="hidden" name="action" value="add">
 
-            <div class="form-group">
-                <label for="author">Tác Giả:</label>
-                <input type="text" id="author" name="author" required><br><br>
-            </div>
+            <label for="TieuDe">Tiêu Đề Sách:</label>
+            <input type="text" id="TieuDe" name="TieuDe" required>
 
-            <div class="form-group">
-                <label for="year">Năm Xuất Bản:</label>
-                <input type="number" id="year" name="year" required><br><br>
-            </div>
+            <label for="MaTacGia">Mã Tác Giả:</label>
+            <input type="number" id="MaTacGia" name="MaTacGia" required>
 
-            <div class="form-group">
-                <label for="quantity">Số Lượng:</label>
-                <input type="number" id="quantity" name="quantity" required><br><br>
-            </div>
+            <label for="MaTheLoai">Mã Thể Loại:</label>
+            <input type="number" id="MaTheLoai" name="MaTheLoai" required>
 
-            <div class="form-group">
-                <label for="coverImage">Ảnh Bìa:</label>
-                <input type="file" id="coverImage" name="coverImage" accept="image/*" required><br><br>
-            </div>
+            <label for="ISBN">ISBN:</label>
+            <input type="text" id="ISBN" name="ISBN" required>
 
-            <div class="form-group">
-                <input type="submit" value="Thêm Sách">
-            </div>
+            <label for="NamXuatBan">Năm Xuất Bản:</label>
+            <input type="number" id="NamXuatBan" name="NamXuatBan" required>
+
+            <label for="SoLuong">Số Lượng:</label>
+            <input type="number" id="SoLuong" name="SoLuong" required>
+
+            <label for="AnhBia">Ảnh Bìa:</label>
+            <input type="file" id="AnhBia" name="AnhBia">
+
+            <input type="submit" value="Thêm Sách">
         </form>
     </div>
 
+    <br>
+    <a href="BookList.jsp">Quay lại danh sách sách</a>
 </body>
 </html>

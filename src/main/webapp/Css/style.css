@@ -1,0 +1,1057 @@
+@charset "UTF-8";
+	 /* css trang BookList */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 20px;
+            color: #333;
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        td a {
+            text-decoration: none;
+            color: #4CAF50;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        td a:hover {
+            background-color: #45a049;
+            color: white;
+        }
+
+        .no-data {
+            text-align: center;
+            font-size: 18px;
+            color: #888;
+            margin-top: 20px;
+        }
+
+        .links {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .links a {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 0 10px;
+        }
+
+        .links a:hover {
+            background-color: #45a049;
+        }
+        
+        /* css trang index */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Header right buttons (Login/Signup) */
+.header-buttons {
+    display: flex;
+}
+
+.header-buttons a {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.header-buttons a:hover {
+    background-color: #45a049;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Main Content */
+.container {
+    padding: 20px;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-container button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-container button:hover {
+    background-color: #45a049;
+}
+
+h2 {
+    color: #333;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.card h3 {
+    color: #4CAF50;
+}
+
+.card p {
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+	/* css trang BorrowList */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Tiêu đề */
+h2 {
+    color: #4CAF50; /* Màu xanh đen giống trang index */
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Định dạng bảng */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Định dạng ảnh (bìa sách hoặc ảnh đại diện) */
+img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Liên kết */
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+	/* Css trang TacGiaList */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+/* Định dạng cho các ô bảng (th, td) */
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Định dạng cho tiêu đề bảng */
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Định dạng liên kết hành động */
+.action-links a {
+    margin: 0 5px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Định dạng cho các nút Sửa */
+.edit {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Định dạng cho các nút Xóa */
+.delete {
+    background-color: #f44336;
+    color: white;
+}
+
+/* Định dạng ảnh tác giả */
+img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Định dạng thông báo khi không có dữ liệu */
+.no-data {
+    text-align: center;
+    font-size: 18px;
+    color: #888;
+}
+	
+   /* Css trang AddMuonSach */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Tiêu đề trang */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Form Container */
+.form-container {
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.form-container label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.form-container input[type="text"], .form-container input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+.form-container input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+.form-container input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* css trang addBook*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Form */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Định dạng cho nhãn */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Định dạng cho các input */
+input[type="text"], input[type="number"], input[type="file"], input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Định dạng cho nút submit */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Hiệu ứng hover cho nút submit */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Định dạng cho form container */
+.form-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Liên kết quay lại */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+/* Hiệu ứng hover cho liên kết */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Css trang addMember */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Tiêu đề */
+h2 {
+    color: #4CAF50;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+/* Form thêm thành viên */
+form {
+    width: 50%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="text"], input[type="email"], input[type="password"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Hiển thị các thông báo hoặc lỗi */
+.message {
+    text-align: center;
+    font-size: 16px;
+    color: #f44336;
+}
+
+
+/* css trang edit Sach */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Tiêu đề trang */
+h2 {
+    color: #4CAF50;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+/* Form sửa thông tin sách */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Định dạng cho nhãn */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Định dạng cho các input */
+input[type="text"], input[type="number"], input[type="file"], input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Định dạng cho nút submit */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Hiệu ứng hover cho nút submit */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Liên kết quay lại */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+/* Hiệu ứng hover cho liên kết */
+a:hover {
+    text-decoration: underline;
+}
+
+
+	/* css trang Login */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container của form */
+.form-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Tiêu đề trang */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Định dạng cho nhãn */
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    color: #333;
+}
+
+/* Định dạng cho các input email và password */
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Định dạng cho nút submit */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hiệu ứng hover cho nút submit */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Liên kết quay lại */
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+/* Hiệu ứng hover cho liên kết */
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* css trang register */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container của form */
+.form-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Tiêu đề trang */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Định dạng cho nhãn */
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    color: #333;
+}
+
+/* Định dạng cho các input (email, password, text) */
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Định dạng cho nút submit */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hiệu ứng hover cho nút submit */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Liên kết quay lại */
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+/* Hiệu ứng hover cho liên kết */
+.back-link:hover {
+    text-decoration: underline;
+}
+
+	/* Css trang tienPhat*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Tiêu đề trang */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 30px;
+}
+
+/* Định dạng cho bảng */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Định dạng cho các ô trong bảng */
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Định dạng cho tiêu đề bảng */
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Định dạng cho form thêm tiền phạt */
+form {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Định dạng cho nhãn trong form */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Định dạng cho các input trong form */
+input[type="text"], input[type="checkbox"], input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Định dạng cho nút submit */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Hiệu ứng hover cho nút submit */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Định dạng cho liên kết quay lại */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+/* Hiệu ứng hover cho liên kết */
+a:hover {
+    text-decoration: underline;
+}
+	
+	/* css phần member */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Tiêu đề */
+h2 {
+    color: #4CAF50;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+/* Định dạng cho bảng */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Định dạng cho các liên kết hành động */
+.action-links a {
+    margin: 0 5px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.edit {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.delete {
+    background-color: #f44336;
+    color: white;
+}
+
+.edit:hover {
+    background-color: #45a049;
+}
+
+.delete:hover {
+    background-color: #e53935;
+}
+
+/* Định dạng cho các liên kết quay lại */
+a {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    font-size: 16px;
+    color: #4CAF50;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #4CAF50;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+}
+
+/* Định dạng cho thông báo không có dữ liệu */
+.no-data {
+    text-align: center;
+    font-size: 18px;
+    color: #888;
+    margin-top: 20px;
+}
+	
+	body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Tiêu đề */
+        h2 {
+            color: #4CAF50;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 30px;
+        }
+
+        /* Form Container */
+        .form-container {
+            width: 60%;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        /* Label */
+        label {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        /* Input fields */
+        input[type="text"], input[type="checkbox"], input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        /* Submit Button */
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        /* Hover effect for submit button */
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        /* Back Link */
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 16px;
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        /* Hover effect for back link */
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        
+       
+        /* Cài đặt font chữ cho toàn bộ trang */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+
+        /* Tiêu đề trang */
+        h2 {
+            text-align: center;
+            color: #4CAF50;
+            margin-top: 30px;
+        }
+
+        /* Định dạng cho bảng */
+        table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        /* Định dạng cho các liên kết hành động */
+        .action-links a {
+            margin: 0 5px;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .edit {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .delete {
+            background-color: #f44336;
+            color: white;
+        }
+
+        .edit:hover {
+            background-color: #45a049;
+        }
+
+        .delete:hover {
+            background-color: #e53935;
+        }
+
+        /* Định dạng cho thông báo không có dữ liệu */
+        .no-data {
+            text-align: center;
+            font-size: 18px;
+            color: #888;
+            margin-top: 20px;
+        }
+
+        /* Định dạng cho các liên kết quay lại */
+        a {
+            display: inline-block;
+            text-align: center;
+            margin: 20px;
+            font-size: 16px;
+            color: #4CAF50;
+            text-decoration: none;
+            padding: 10px;
+            border: 1px solid #4CAF50;
+            border-radius: 5px;
+        }
+
+        a:hover {
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+        }

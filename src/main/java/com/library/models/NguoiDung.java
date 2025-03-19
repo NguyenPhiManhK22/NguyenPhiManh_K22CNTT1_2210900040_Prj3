@@ -2,16 +2,15 @@ package com.library.models;
 
 import java.util.Date;
 
-public class Member {
-    private int maNguoiDung;     // Mã người dùng (ID của thành viên)
-    private String hoTen;        // Họ tên thành viên
-    private String email;        // Email thành viên (có thể dùng làm đăng nhập)
-    private String matKhau;      // Mật khẩu thành viên (cần mã hóa)
-    private String vaiTro;       // Vai trò của thành viên (Admin, ThanhVien)
-    private Date ngayTao;        // Ngày tạo tài khoản của thành viên
+public class NguoiDung {
+    private int maNguoiDung;
+    private String hoTen;
+    private String email;
+    private String matKhau;
+    private String vaiTro;
+    private Date ngayTao;
 
-    // Constructor
-    public Member(int maNguoiDung, String hoTen, String email, String matKhau, String vaiTro, Date ngayTao) {
+    public NguoiDung(int maNguoiDung, String hoTen, String email, String matKhau, String vaiTro, Date ngayTao) {
         this.maNguoiDung = maNguoiDung;
         this.hoTen = hoTen;
         this.email = email;
@@ -20,11 +19,6 @@ public class Member {
         this.ngayTao = ngayTao;
     }
 
-    public Member() {
-		// TODO Auto-generated constructor stub
-	}
-
-	// Getter và Setter cho các thuộc tính
     public int getMaNguoiDung() {
         return maNguoiDung;
     }
@@ -71,17 +65,5 @@ public class Member {
 
     public void setNgayTao(Date ngayTao) {
         this.ngayTao = ngayTao;
-    }
-
-    @Override
-    public String toString() {
-        return "Member{" +
-                "maNguoiDung=" + maNguoiDung +
-                ", hoTen='" + hoTen + '\'' +
-                ", email='" + email + '\'' +
-                ", matKhau='" + matKhau + '\'' +
-                ", vaiTro='" + vaiTro + '\'' +
-                ", ngayTao=" + ngayTao +
-                '}';
     }
 }
